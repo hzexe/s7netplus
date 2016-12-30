@@ -1,4 +1,6 @@
-﻿namespace S7.Net
+﻿using System.ComponentModel;
+
+namespace S7.Net
 {
     /// <summary>
     /// Types of S7 cpu supported by the library
@@ -8,26 +10,31 @@
         /// <summary>
         /// S7 200 cpu type
         /// </summary>
+        [Description("S7 200")]
         S7200 = 0,
 
         /// <summary>
         /// S7 300 cpu type
         /// </summary>
+        [Description("S7 300")]
         S7300 = 10,
 
         /// <summary>
         /// S7 400 cpu type
         /// </summary>
+        [Description("S7 400")]
         S7400 = 20,
 
         /// <summary>
         /// S7 1200 cpu type
         /// </summary>
+        [Description("S7 1200")]
         S71200 = 30,
 
         /// <summary>
         /// S7 1500 cpu type
         /// </summary>
+        [Description("S7 1500")]
         S71500 = 40,
     }
 
